@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Especialidad">
+        <item>Selecionar</item>
+        <item>Odontologia</item>
+        <item>Medicina General</item>
+        <item>Pediatria</item>
+        <item>Oncologia</item>
+        <item>Dermatologia</item>
+        <item>Oftalmología.</item>
+        <item>Psiquiatría.</item>
+        <item>Reumatología.</item>
+        <item>Neumología.</item>
+    </string-array>
+
+    <string-array name="Doctores">
+        <item>Selecionar</item>
+        <item>Jorge Gutierrez.</item>
+        <item>Andres Zabala.</item>
+        <item>Belen Ruiz.</item>
+        <item>Laura Esquerra.</item>
+        <item>Diego Pererira.</item>
+        <item>Maria Lima.</item>
+        <item>Marisa Montero.</item>
+        <item>Nelida Caballero.</item>
+    </string-array>
+
+    <string-array name="Dias">
+        <item>Selecionar</item>
+        <item>Lunes.</item>
+        <item>Martes.</item>
+        <item>Miercoles.</item>
+        <item>Jueves.</item>
+        <item>Viernes.</item>
+    </string-array>
+
+</resources>

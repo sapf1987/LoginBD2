@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".HistorialConsultas">
+
+    <TextView
+        android:id="@+id/TituloHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="20sp"
+        android:text="Historial"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sus futuras consultas a realizar son:"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lista_consulta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_volverMenuH"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_redondeado_white"
+            android:gravity="center"
+            android:text="Volver" />
+
+    </LinearLayout>
+
+</LinearLayout>

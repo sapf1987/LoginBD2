@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".MarcarConsulta">
+
+    <TextView
+        android:id="@+id/TituloMarcarConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="20sp"
+        android:text="Nueva consulta"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marque las opciònes:"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empezemos"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elija La Especialidad:"
+            android:textColor="@android:color/black"
+            />
+        <Spinner
+            android:id="@+id/Spin_Especialidades"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elija su medico:"
+            android:textColor="@android:color/black"
+            />
+        <Spinner
+            android:id="@+id/Spin_Doctor"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dia para su Consulta"
+            android:textColor="@android:color/black"
+            />
+        <Spinner
+            android:id="@+id/Spin_Dias"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            />
+
+        <Button
+            android:id="@+id/btn_guard_Consulta"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/input_boton1"
+            android:text="Guardar"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_volverMenuM"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_redondeado_white"
+            android:gravity="center"
+            android:text="Volver" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

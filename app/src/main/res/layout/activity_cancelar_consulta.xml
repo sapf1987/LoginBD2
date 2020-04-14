@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".CancelarConsulta">
+
+    <TextView
+        android:id="@+id/TituloCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="20sp"
+        android:text="Cancelaciònes"
+        android:textColor="@android:color/white"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Elija la consulta que desea cancelar:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lista_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_volverMenuC"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_redondeado_white"
+            android:gravity="center"
+            android:text="Volver" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
